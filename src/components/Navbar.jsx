@@ -11,7 +11,7 @@ function Navbar() {
                 <li><a className={styles.navLink} href="#home">Accueil</a></li>
                 <li><a className={styles.navLink} href="#about">À propos</a></li>
                 <li><a className={styles.navLink} href="#projects">Projets</a></li>
-                <li><a className={styles.navLink} href="#CV">CV</a></li>
+                <li><a className={styles.navLink} href="#contact">Me Contacter</a></li>
             </ul>
             <div className={styles.logoContainer}>
                 <a href="https://www.linkedin.com/in/alexis-fiolet/">

@@ -1,0 +1,76 @@
+.projectsSection {
+    padding: 50px 20px;
+    background-color: #111; /* Fond sombre pour le contraste */
+    color: white;
+    display: flex;
+    justify-content: center; /* Centrer la section sur la page */
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .projectsSection h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 projets par ligne */
+    gap: 20px;
+    justify-items: center; /* Centrer chaque projet dans sa "cellule" */
+    width: 100%;
+    max-width: 1200px; /* Limiter la largeur de la grille pour que ce soit plus joli sur de grands écrans */
+  }
+  
+  .projectLink {
+    display: block; /* Rendre tout le div cliquable */
+    text-decoration: none; /* Enlever le soulignement du lien */
+  }
+  
+  .projectCard {
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px; /* Largeur maximale des cartes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+  }
+  
+  .projectCard:hover {
+    transform: translateY(-10px); /* Effet au survol */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Pour que l'image occupe toute la largeur sans déformation */
+  }
+  
+  .projectContent {
+    padding: 15px;
+  }
+  
+  .projectTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .projectDescription {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .projectsContainer {
+      grid-template-columns: repeat(1, 1fr); /* 2 projets par ligne pour les petits écrans aussi */
+    }
+  }
+  
+  
