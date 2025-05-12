@@ -1,0 +1,54 @@
+/* Navbar.css */
+
+.container{
+  position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    width: 80%;
+    height: 70px;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+.navList{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  width: 80%;
+  margin: 0;
+}
+
+.navLink{
+  text-decoration: none;
+  color: #999;
+}
+
+.navLink:hover{
+  color: #ccc;
+}
+
+.logoContainer {
+  display: flex;
+  gap: 1rem; /* Espace entre les logos */
+}
+
+.logo {
+  width: 40px;  /* Ajuste la taille des logos */
+  height: auto; /* Maintient le ratio d'aspect */
+  transition: transform 0.3s ease;
+}
+  
