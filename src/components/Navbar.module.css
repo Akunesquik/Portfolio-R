@@ -44,6 +44,7 @@
 .logoContainer {
   display: flex;
   gap: 1rem; /* Espace entre les logos */
+  margin-right: 20px;
 }
 
 .logo {
