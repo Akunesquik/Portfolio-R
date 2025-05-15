@@ -1,27 +1,38 @@
 import React from 'react';
-import styles from './Projects.module.css'; // Assurez-vous que vous avez créé ce module CSS
+import styles from './Projects.module.css';
 
-// Exemples de données de projet, peut-être à charger depuis un fichier JSON
+// Import des images locales
+import portfolioImg from '../assets/img/projects/moi.png';
+import iaPuissance4Img from '../assets/img/projects/puissance4.png';
+import iaRocketLeagueImg from '../assets/img/projects/RL.png';
+import ytbMp3Img from '../assets/img/projects/ytmp3.png';
+
+// Données des projets
 const projectsData = [
   {
-    title: "Projet 1",
-    description: "Description du projet 1.",
-    image: "/path/to/image1.jpg",
-    githubLink: "https://github.com/toncompte/projet1"
+    title: "Portfolio React",
+    description: "Un site portfolio personnel réalisé avec React, CSS Modules et hébergé sur GitHub Pages. Il présente mes compétences, projets et un formulaire de contact.",
+    image: portfolioImg,
+    githubLink: "https://github.com/Akunesquik/Portfolio-R"
   },
   {
-    title: "Projet 2",
-    description: "Description du projet 2.",
-    image: "/path/to/image2.jpg",
-    githubLink: "https://github.com/toncompte/projet2"
+    title: "IA Puissance 4 (PFE)",
+    description: "Un projet de fin d'études où j'ai développé une intelligence artificielle jouant à Puissance 4. L'accent a été mis sur la stratégie, les heuristiques et la recherche de performance.",
+    image: iaPuissance4Img,
+    githubLink: "https://github.com/Akunesquik/Puissance4IA"
   },
   {
-    title: "Projet 3",
-    description: "Description du projet 3.",
-    image: "/path/to/image3.jpg",
-    githubLink: "https://github.com/toncompte/projet3"
+    title: "IA Rocket League",
+    description: "Une IA créée pour simuler des décisions stratégiques dans le jeu Rocket League. Inspirée par mes +300 heures de jeu, elle m’a permis de mêler passion et code.",
+    image: iaRocketLeagueImg,
+    githubLink: "https://github.com/Akunesquik/BotRL"
   },
-  // Ajoute d'autres projets ici si nécessaire
+  {
+    title: "YouTube MP3 Downloader",
+    description: "Application desktop pour télécharger des vidéos YouTube en MP3. Conçue pour moi et ma famille avec un installeur personnalisé pour une installation sur plusieurs machines.",
+    image: ytbMp3Img,
+    githubLink: "https://github.com/Akunesquik/Ytmp3"
+  },
 ];
 
 const Projects = () => {
