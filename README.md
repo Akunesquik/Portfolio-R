@@ -1,12 +1,24 @@
-# React + Vite
+# 🌐 Portfolio - Alexis Fiolet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur mon portfolio personnel, conçu pour présenter mes compétences, projets et faciliter les prises de contact. Ce site a été entièrement développé avec **React** et stylisé avec **CSS Modules**. Il est hébergé sur **GitHub Pages**.
 
-Currently, two official plugins are available:
+## ✨ Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Présentation professionnelle dans la section **À propos**
+- Affichage dynamique des **projets récents**
+- **Mosaïque visuelle** des compétences techniques avec Devicon
+- Formulaire de **contact fonctionnel** avec envoi d'email
+- Responsive et optimisé pour tous les écrans
+- Hébergement via GitHub Pages
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies utilisées
+
+- **React.js**
+- **CSS Modules**
+- **Devicon** (pour les icônes de technologies)
+- **EmailJS** (pour le formulaire de contact)
+- **GitHub Pages** (pour l’hébergement)
+
+
