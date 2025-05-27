@@ -20,7 +20,7 @@ function Home() {
             technologies les plus récentes. Explorez mes projets et découvrez
             mon parcours.
           </p>
-          <a href="mailto:alexis.fiolet@gmail.com">Me contacter</a>
+          <a href="#contact">Me contacter</a>
         </div>
         <div>
           <img src={moiImage} alt="Moi" />
