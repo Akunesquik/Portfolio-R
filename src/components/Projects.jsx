@@ -6,14 +6,22 @@ import portfolioImg from '../assets/img/projects/moi.png';
 import iaPuissance4Img from '../assets/img/projects/puissance4.png';
 import iaRocketLeagueImg from '../assets/img/projects/RL.png';
 import ytbMp3Img from '../assets/img/projects/ytmp3.png';
+import jeuxreact from '../assets/img/projects/jeux-react.png';
 
 // Données des projets
+
 const projectsData = [
   {
     title: "Portfolio React",
     description: "Un site portfolio personnel réalisé avec React, CSS Modules et hébergé sur GitHub Pages. Il présente mes compétences, projets et un formulaire de contact.",
     image: portfolioImg,
     githubLink: "https://github.com/Akunesquik/Portfolio-R"
+  },
+  {
+    title: "Jeux React",
+    description: "Une collection de jeux classiques (Morpion, Puissance 4, Snake) développés en React avec gestion avancée des états, interface responsive et déploiement sur GitHub Pages. ",
+    image: jeuxreact,
+    githubLink: "https://akunesquik.github.io/jeux-react/"
   },
   {
     title: "IA Puissance 4 (PFE)",
