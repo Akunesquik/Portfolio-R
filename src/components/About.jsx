@@ -19,45 +19,46 @@ function About() {
             </div>
 
             <div className={styles.techSkills}>
-            <div className={styles.skill}>
-                <p><strong>HTML5</strong> pour la structuration sémantique et la mise en place de la base du site.</p>
-                <i className="devicon-html5-plain-wordmark gray" title="HTML5"></i>
-            </div>
+                <div className={styles.skill}>
+                    <p><strong>Symfony</strong> pour des applications PHP robustes et bien structurées.</p>
+                    <i className="devicon-symfony-original-wordmark gray" title="Symfony"></i>
+                </div>
 
-            <div className={styles.skill}>
-                <p><strong>CSS3</strong> pour la mise en forme et la conception de designs responsives.</p>
-                <i className="devicon-css3-plain-wordmark gray" title="CSS3"></i>
-            </div>
+                <div className={styles.skill}>
+                    <p><strong>PHP</strong> pour le développement back-end, notamment dans des projets à grande échelle.</p>
+                    <i className="devicon-php-plain gray" title="PHP"></i>
+                </div>
+                <div className={styles.skill}>
+                    <p><strong>HTML5</strong> pour la structuration sémantique et la mise en place de la base du site.</p>
+                    <i className="devicon-html5-plain-wordmark gray" title="HTML5"></i>
+                </div>
 
-            <div className={styles.skill}>
-                <p><strong>JavaScript</strong> pour rendre les pages interactives et dynamiques.</p>
-                <i className="devicon-javascript-plain gray" title="JavaScript"></i>
-            </div>
+                <div className={styles.skill}>
+                    <p><strong>CSS3</strong> pour la mise en forme et la conception de designs responsives.</p>
+                    <i className="devicon-css3-plain-wordmark gray" title="CSS3"></i>
+                </div>
 
-            <div className={styles.skill}>
-                <p><strong>React</strong> pour créer des interfaces utilisateur modernes et réactives.</p>
-                <i className="devicon-react-original-wordmark gray" title="React"></i>
-            </div>
+                <div className={styles.skill}>
+                    <p><strong>JavaScript</strong> pour rendre les pages interactives et dynamiques.</p>
+                    <i className="devicon-javascript-plain gray" title="JavaScript"></i>
+                </div>
 
-            <div className={styles.skill}>
-                <p><strong>Node.js</strong> pour la création d'applications back-end performantes.</p>
-                <i className="devicon-nodejs-plain-wordmark gray" title="Node.js"></i>
-            </div>
+                <div className={styles.skill}>
+                    <p><strong>React</strong> pour créer des interfaces utilisateur modernes et réactives.</p>
+                    <i className="devicon-react-original-wordmark gray" title="React"></i>
+                </div>
 
-            <div className={styles.skill}>
-                <p><strong>Symfony</strong> pour des applications PHP robustes et bien structurées.</p>
-                <i className="devicon-symfony-original-wordmark gray" title="Symfony"></i>
-            </div>
+                <div className={styles.skill}>
+                    <p><strong>Node.js</strong> pour la création d'applications back-end performantes.</p>
+                    <i className="devicon-nodejs-plain-wordmark gray" title="Node.js"></i>
+                </div>
 
-            <div className={styles.skill}>
-                <p><strong>PHP</strong> pour le développement back-end, notamment dans des projets à grande échelle.</p>
-                <i className="devicon-php-plain gray" title="PHP"></i>
-            </div>
+                
 
-            <div className={styles.skill}>
-                <p><strong>MySQL</strong> pour gérer efficacement les bases de données relationnelles.</p>
-                <i className="devicon-mysql-plain-wordmark gray" title="MySQL"></i>
-            </div>
+                <div className={styles.skill}>
+                    <p><strong>MySQL</strong> pour gérer efficacement les bases de données relationnelles.</p>
+                    <i className="devicon-mysql-plain-wordmark gray" title="MySQL"></i>
+                </div>
             </div>
         </div>
     </section>

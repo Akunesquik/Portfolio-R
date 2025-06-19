@@ -7,6 +7,7 @@ import iaPuissance4Img from '../assets/img/projects/puissance4.png';
 import iaRocketLeagueImg from '../assets/img/projects/RL.png';
 import ytbMp3Img from '../assets/img/projects/ytmp3.png';
 import jeuxreact from '../assets/img/projects/jeux-react.png';
+import barber from '../assets/img/projects/barber.jpg';
 
 // Données des projets
 
@@ -22,6 +23,12 @@ const projectsData = [
     description: "Une collection de jeux classiques (Morpion, Puissance 4, Snake) développés en React avec gestion avancée des états, interface responsive et déploiement sur GitHub Pages. ",
     image: jeuxreact,
     githubLink: "https://akunesquik.github.io/jeux-react/"
+  },
+  {
+    title: "Study Connect",
+    description: "Projet réalisé en Symfony avec des amis afin de résoudre un problème que recontre les coiffeurs, la file d'attente. Ce projet permettrai d'avoir une file d'attente virtuel afin d'annoncer aux clients, en temps réels, combien de temps avant de pouvoir passer avec un coiffeur. ",
+    image: barber,
+    githubLink: "https://github.com/Akunesquik/studyconnect.git"
   },
   {
     title: "IA Puissance 4 (PFE)",
