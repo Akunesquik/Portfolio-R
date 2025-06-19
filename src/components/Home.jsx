@@ -5,7 +5,7 @@ import chanelLogo from '../assets/img/logos/Chanel-logo.png';
 import societeGeneraleLogo from '../assets/img/logos/Société_Générale-logo.png';
 import uimmLogo from '../assets/img/logos/UIMM-logo.png';
 import leMondeLogo from '../assets/img/logos/Le_Monde-logo.png';
-import moiImage from '../assets/img/moi.png'; // Importation de l'image
+import moiImage from '../assets/img/moi.jpg'; // Importation de l'image
 
 function Home() {
   return (
@@ -20,7 +20,7 @@ function Home() {
             technologies les plus récentes. Explorez mes projets et découvrez
             mon parcours.
           </p>
-          <a href="#contact">Me contacter</a>
+          <a  target="_blank" href="https://akunesquik.github.io/jeux-react/">Essayer mes jeux en Réact</a>
         </div>
         <div>
           <img src={moiImage} alt="Moi" />

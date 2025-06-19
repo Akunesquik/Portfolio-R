@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Projects.module.css';
 
 // Import des images locales
-import portfolioImg from '../assets/img/projects/moi.png';
+import portfolioImg from '../assets/img/projects/moi.jpg';
 import iaPuissance4Img from '../assets/img/projects/puissance4.png';
 import iaRocketLeagueImg from '../assets/img/projects/RL.png';
 import ytbMp3Img from '../assets/img/projects/ytmp3.png';
@@ -46,7 +46,7 @@ const projectsData = [
 const Projects = () => {
   return (
     <section className={styles.projectsSection}>
-      <h2>Projets</h2>
+      <h2>Projets personnels</h2>
       <div className={styles.projectsContainer}>
         {projectsData.map((project, index) => (
           <a 
