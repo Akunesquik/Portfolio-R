@@ -75,5 +75,14 @@
       grid-template-columns: repeat(1, 1fr); /* 2 projets par ligne pour les petits écrans aussi */
     }
   }
+
+.firstTag {
+  display: inline-block;
+  background-color: #7516bd;
+  color: #444;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+    color: white;
+}
   
   
